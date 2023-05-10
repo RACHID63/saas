@@ -1,0 +1,27 @@
+nav {
+  width: 100%;
+  background: pink;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+h1::after {
+  content: "*";
+  position: absolute;
+  transform: translateY(-6px);
+  color: pink;
+}
+h1:hover:after {
+  font-size: 6rem;
+}/*# sourceMappingURL=index.css.map */
