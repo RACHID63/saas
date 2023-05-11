@@ -1,0 +1,18 @@
+$color1:rgb(61, 43, 43);
+$clolor2: red;
+$color3: rgb(0, 255, 195);
+$color4: rgb(255, 170, 0);
+$fonte1:fonte1, sans-serif;
+
+@mixin center {
+    display: flex;
+        justify-content:space-around;
+        justify-items: center;
+        align-items: center;
+}
+
+@font-face {
+ font-family: "fonte1";
+ src: url(../asset/fonte/fonte/RobotoSerif-Italic-VariableFont_GRAD\,opsz\,wdth\,wght.ttf) 
+ 
+}

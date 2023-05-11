@@ -1,0 +1,12 @@
+
+section {
+    height: 100vh;
+    @include center;  
+    p {
+        width: 50vw;
+        color: $color3;
+        margin-left: 2px;
+        font-size:2rem;
+        // text-align: center
+    }
+}
